@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar(index);
 			putchar(innerindexx);
-			if  (innerindexx != '9' && innerindexx != '9')
+			if (index != '9' && innerindexx != '9')
 			{
 				putchar(',');
 				putchar(' ');
