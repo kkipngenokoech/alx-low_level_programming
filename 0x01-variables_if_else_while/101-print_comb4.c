@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (innerindexx = innerindex; innerindexx <= '9'; innerindexx++)
 		{
-			for (innestindexx = innestindex; innestindexx <= '9'; innestindexx)
+			for (innestindexx = innestindex; innestindexx <= '9'; innestindexx++)
 			{
 				if (index == innerindexx && innerindexx == innestindexx)
 				{
@@ -25,7 +25,7 @@ int main(void)
 				putchar(index);
 				putchar(innerindexx);
 				putchar(innestindexx);
-				if (index = '7' && innerindexx = '8' && innestindexx = '9')
+				if (index == '7' && innerindexx == '8' && innestindexx == '9')
 				{
 					putchar('\n');
 				}
