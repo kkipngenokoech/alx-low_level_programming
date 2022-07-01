@@ -14,11 +14,11 @@ int main(void)
 	{
 		for (innerindexx = innerindex; innerindexx <= '9'; innerindexx++)
 		{
-			if(index != innerindexx)
+			if (index != innerindexx)
 			{
 				putchar(index);
 				putchar(innerindexx);
-				if (index == '9' && innerindexx == '9')
+				if (index == '8' && innerindexx == '9')
 				{
 					putchar('\n');
 				}
@@ -28,8 +28,8 @@ int main(void)
 					putchar(' ');
 				}
 			}
-		}innerindex++;
-		
+		}
+		innerindex++;
 	}
 	return (0);
 }
