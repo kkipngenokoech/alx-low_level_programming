@@ -3,7 +3,9 @@
 /* more headers goes there */
 #include<stdio.h>
 /* betty style doc for function main goes there */
+
 /**
+ * main - Determines if a number is positive, negative or zero.
  * main - Determines if a number is positive, negative or zero.
  *
  * Return - 0 Always sucess (success)
