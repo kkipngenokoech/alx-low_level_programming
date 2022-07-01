@@ -14,15 +14,15 @@ int main(void)
 	{
 		for (innerindexx = innerindex; innerindexx <= '9'; innerindexx++)
 		{
+			if(index == innerindex)
+			{
+				continue;
+			}
 			putchar(index);
 			putchar(innerindexx);
 			if (index == '9' && innerindexx == '9')
 			{
 				putchar('\n');
-			}
-			else if (index == innerindexx)
-			{
-				continue;
 			}
 			else
 			{
