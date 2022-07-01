@@ -14,11 +14,7 @@ int main(void)
 	{
 		for (innerindexx = innerindex; innerindexx <= '9'; innerindexx++)
 		{
-			if(index == innerindex)
-			{
-				continue;
-			}
-			else
+			if(index != innerindexx)
 			{
 				putchar(index);
 				putchar(innerindexx);
