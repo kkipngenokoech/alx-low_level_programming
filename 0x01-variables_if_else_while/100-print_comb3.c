@@ -12,16 +12,16 @@ int main(void)
 	innerindex = '0';
 	for (index = '0'; index <= '9'; index++)
 	{
-		for (;innerindex <= '9'; innerindex++)
+		for (int innerindexx = innerindex; innerindexx <= '9'; innerindexx++)
 		{
 			putchar(index);
-			putchar(innerindex);
-			while (innerindex != '9' && innerindex != '9')
+			putchar(innerindexx);
+			while  (innerindexx != '9' && innerindexx != '9')
 			{
 				putchar(',');
 				putchar(' ');
 			}
-		}
+		}innerindex++;
 		putchar('\n');
 	}
 	return (0);
