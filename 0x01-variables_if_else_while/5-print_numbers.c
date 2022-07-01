@@ -1,11 +1,17 @@
 #include<stdio.h>
+
+/**
+ * main - print numbers from 0 to 10
+ * Return : 0 always (success)
+ */
 int main(void)
 {
 	int a;
-	for (a =0; a<=9; a++)
+
+	for (a = 0; a <= 9; a++)
 	{
 		printf("%d", a);
 	}
-	return 0;
+	printf("\n");
+	return (0);
 }
-		
