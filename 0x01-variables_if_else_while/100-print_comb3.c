@@ -16,7 +16,11 @@ int main(void)
 		{
 			putchar(index);
 			putchar(innerindexx);
-			if (index != '9' && innerindexx != '9')
+			if (index == '9' && innerindexx == '9')
+			{
+				putchar('\n');
+			}
+			else
 			{
 				putchar(',');
 				putchar(' ');
@@ -24,6 +28,5 @@ int main(void)
 		}innerindex++;
 		
 	}
-	putchar('\n');
 	return (0);
 }
