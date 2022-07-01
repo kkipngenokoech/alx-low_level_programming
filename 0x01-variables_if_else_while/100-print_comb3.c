@@ -18,16 +18,19 @@ int main(void)
 			{
 				continue;
 			}
-			putchar(index);
-			putchar(innerindexx);
-			if (index == '9' && innerindexx == '9')
-			{
-				putchar('\n');
-			}
 			else
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(index);
+				putchar(innerindexx);
+				if (index == '9' && innerindexx == '9')
+				{
+					putchar('\n');
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}innerindex++;
 		
