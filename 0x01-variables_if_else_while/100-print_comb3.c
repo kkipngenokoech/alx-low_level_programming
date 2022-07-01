@@ -20,6 +20,10 @@ int main(void)
 			{
 				putchar('\n');
 			}
+			else if (index == innerindexx)
+			{
+				continue;
+			}
 			else
 			{
 				putchar(',');
