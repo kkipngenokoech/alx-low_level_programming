@@ -8,7 +8,7 @@
  * main - Determines if a number is positive, negative or zero.
  * main - Determines if a number is positive, negative or zero.
  *
- * Return - 0 Always sucess (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
