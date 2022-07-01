@@ -22,7 +22,8 @@ int main(void)
 				putchar(' ');
 			}
 		}innerindex++;
-		putchar('\n');
+		
 	}
+	putchar('\n');
 	return (0);
 }
