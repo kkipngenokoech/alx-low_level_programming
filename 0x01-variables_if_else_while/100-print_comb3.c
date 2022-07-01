@@ -12,7 +12,7 @@ int main(void)
 	innerindex = '0';
 	for (index = '0'; index <= '9'; index++)
 	{
-		for (innerindex <= '9'; innerindex++)
+		for (;innerindex <= '9'; innerindex++)
 		{
 			putchar(index);
 			putchar(innerindex);
