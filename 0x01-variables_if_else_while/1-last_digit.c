@@ -3,6 +3,11 @@
 /* more headers goes there */
 #include<stdio.h>
 /* betty style doc for function main goes there */
+/**
+ * main - Determines either greater than 5, is less than 6, or is 0
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
