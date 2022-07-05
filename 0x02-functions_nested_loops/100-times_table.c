@@ -3,6 +3,7 @@
 /**
  * print_times_table - printing times table
  * @n: parameter to be passed
+ * Return : returns void
  */
 void print_times_table(int n)
 {
@@ -13,7 +14,7 @@ void print_times_table(int n)
 
 	start = n;
 	if (start > 15 || start < 0)
-		break;
+		return;
 	else
 	{
 		for (first = 0; first <= start; first++)
