@@ -11,7 +11,7 @@ int _isalpha(int c)
 	char character;
 
 	character = c;
-	if ((character >= 'a' && Character <= 'z') || (character >= 'A' && character <= 'Z'))
+	if ((character >= 'a' && character <= 'z') || (character >= 'A' && character <= 'Z'))
 	{
 		return (1);
 	}
