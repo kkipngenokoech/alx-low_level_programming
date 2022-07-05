@@ -4,8 +4,6 @@
  * times_table - prints timetable
  */
 void times_table(void)
-{
-	void times_table(void)
 	{
 		int a;
 		int b;
