@@ -6,7 +6,7 @@
  *
  * @c: -parameter being passed in presumed a letter
  * Return: 1 on if lowercase else 0
- */:
+ */
 int _islower(int c)
 {
 	char character;
