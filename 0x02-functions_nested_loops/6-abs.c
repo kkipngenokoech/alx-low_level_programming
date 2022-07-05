@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _abs - it computes the absolute value of an integrer
- * @n: the parameter to be passed
+ * @n: parameter to be passed
  * Return: 0 always on success
  */
 int _abs(int n)
@@ -12,7 +12,7 @@ int _abs(int n)
 	number = n;
 	if (number < 0)
 	{
-		return (number*(-1));
+		return (number * (-1));
 	}
 	else
 	{
