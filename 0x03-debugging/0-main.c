@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * main - tests if the positive or negative funcctions works
+ * return: always zero on success
  */
 int main(void)
 {
