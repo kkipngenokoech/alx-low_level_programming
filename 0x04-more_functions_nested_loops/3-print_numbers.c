@@ -3,7 +3,9 @@
 
 /**
  * print_numbers -  prints numbers ranging from 0 to 1
+ *
  */
+
 void print_numbers(void)
 {
 	int number;
