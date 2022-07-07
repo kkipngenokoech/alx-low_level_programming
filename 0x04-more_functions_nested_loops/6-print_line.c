@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- *
+ * print_line - function that print underscores
+ * Return: always return 0
  */
 void print_line(int n)
 {
