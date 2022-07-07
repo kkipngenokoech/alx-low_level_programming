@@ -13,9 +13,7 @@ void print_times_table(int n)
 	int result;
 
 	start = n;
-	if (start > 15 || start < 0)
-		return;
-	else
+	if (!(start > 15 || start < 0))
 	{
 		for (first = 0; first <= start; first++)
 		{
@@ -23,7 +21,8 @@ void print_times_table(int n)
 			{
 				result = first * second;
 				if (first == start && second == start)
-					_putchar(result);
+					_putchar('0' + rep / 10);
+					_putchar('0' + rep % 10);
 				else
 				{
 					_putchar(result);
