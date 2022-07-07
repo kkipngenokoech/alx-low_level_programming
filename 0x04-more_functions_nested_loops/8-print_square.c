@@ -3,6 +3,7 @@
 
 /**
  * print_square - prints hashes
+ * @size: parameter to be passed
  * Return: always 0
  */
 void print_square(int size)
