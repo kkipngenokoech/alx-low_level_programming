@@ -13,19 +13,19 @@ int main(void)
 	{
 		if (index % 3 == 0 && index % 5 == 0)
 		{
-			printf("fizzbuzz ");
+			printf("FizzBuzz ");
 		}
 		else if ( index % 3 == 0)
 		{
-			printf("fizz ");
+			printf("Fizz ");
 		}
 		else if (index % 5 == 0)
 		{
 			if (index == 100)
-				printf("buzz\n");
+				printf("Buzz\n");
 			else
 			{
-				printf("buzz ");
+				printf("Buzz ");
 			}
 		}
 		else
@@ -34,4 +34,5 @@ int main(void)
 		}
 		
 	}
+	return (0);
 }
