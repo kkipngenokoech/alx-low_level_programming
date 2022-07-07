@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
- *
+ * print_diagonal - prints backslashes diagonally
+ * @n: parameter to be passed
+ * Return: returns zeto
  */
 void print_diagonal(int n)
 {
