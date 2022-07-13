@@ -15,7 +15,7 @@ int _strcmp(char *s1, char *s2)
 	while (checker == 0)
 	{
 		if(s1[counter] == '\0' || s2[counter] == '\0')
-			break;
+			break ;
 		else
 		{
 			checker = s1[counter] - s2[counter];
