@@ -10,11 +10,8 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int counter, loop;
-	char s1copy[98];
 
-	for (loop = 0; loop <= 98; loop++)
-		s1copy[loop] = dest[loop];
 	for (counter = 0; counter <= n; counter++)
-		s1copy[counter] = src[counter];
-	return (s1copy);
+		dest[counter] = src[counter];
+	return (dest);
 }
