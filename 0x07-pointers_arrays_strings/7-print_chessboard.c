@@ -10,14 +10,12 @@ void print_chessboard(char (*a)[8])
 	unsigned int row, column;
 
 	column = 0;
-	for (row = 0; row < 64; row++)
+	for (row = 0; row < 8; row++)
 	{
-		if (row % 8 == '\0' && row != 0)
+		for (column = 0; column < 8; column++)
 		{
-			column = row;
-			_putchar('\n');
+			_putchar(*(*(row+a)+column));
 		}
-		_putchar(a[row / 8][row - column];
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
