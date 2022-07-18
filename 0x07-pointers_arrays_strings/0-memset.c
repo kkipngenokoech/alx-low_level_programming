@@ -8,3 +8,13 @@
  * Return: a pointer tomemory address
  */
 char *_memset(char *s, char b, unsigned int n)
+{
+	unsigned int index;
+
+	index = 0;
+	for (;index < n; index++)
+	{
+		s[index] = b;
+	}
+	return (s);
+}
