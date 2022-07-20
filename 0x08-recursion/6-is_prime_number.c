@@ -7,7 +7,7 @@
  */
 int is_prime_number(int n)
 {
-	return (primenumber(n, 2);
+	return (primenumber(n, 2));
 }
 /**
  * primenumber - checks for divisibility test
@@ -26,5 +26,5 @@ int primenumber(int n, int index)
 	{
 		return (0);
 	}
-	return (primenumber(n, index+1);
+	return (primenumber(n, index+1));
 }
