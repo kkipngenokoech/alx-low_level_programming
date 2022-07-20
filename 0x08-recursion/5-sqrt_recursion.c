@@ -7,7 +7,7 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (_squarereroot(n,1));
+	return (_squareroot(n,1));
 }
 /**
  * _squareroot - trys to find the squarerrot of a number
