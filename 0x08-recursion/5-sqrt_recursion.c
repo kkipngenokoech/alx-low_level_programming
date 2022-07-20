@@ -7,13 +7,13 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (_squareroot(n,1));
+	return (_squareroot(n, 1));
 }
 /**
  * _squareroot - trys to find the squarerrot of a number
  * @n: the number whose squarerrot is to be found
  * @index: number used to check for root
- * Return: returns the index or the number in which finds the squarerrot of the number
+ * Return: return the number in which finds the squarerrot of the number
  */
 int _squareroot(int n, int index)
 {
