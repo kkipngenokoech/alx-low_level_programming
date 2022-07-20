@@ -13,6 +13,7 @@ int is_prime_number(int n)
  * primenumber - checks for divisibility test
  * @n: number to be checked
  * @index: divisibility test
+ * Return: if prime
  */
 int primenumber(int n, int index)
 {
@@ -26,5 +27,5 @@ int primenumber(int n, int index)
 	{
 		return (0);
 	}
-	return (primenumber(n, index+1));
+	return (primenumber(n, index + 1));
 }
