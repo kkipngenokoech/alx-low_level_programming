@@ -5,7 +5,7 @@
  * @argv: array that contains the command line arguements
  * Return: 0- success
  */
-int main(argc__attribute__((unused)), char *argv[])
+int main(argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", argv[0]);
 	return (0);
