@@ -1,1 +1,1 @@
-command line arguements 
+arguements command line
