@@ -8,3 +8,5 @@ void _puts_recursion(char *s);
 int _putchar(char c);
 int _squareroot(int n, int i);
 int primenumber(int n, int index);
+int wildcmp(char *s1, char *s2);
+int is_palindrome(char *s);
