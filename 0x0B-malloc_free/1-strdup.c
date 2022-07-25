@@ -10,7 +10,7 @@ char *_strdup(char *str)
 	char *printstring;
 	unsigned int index, column;
 
-	if (str == printstring)
+	if (str == NULL)
 		return (NULL);
 	for (index = 0; str[index] != '\0'; index++)
 	{
