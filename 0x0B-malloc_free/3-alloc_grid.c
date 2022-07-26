@@ -24,7 +24,7 @@ int **alloc_grid(int width, int height)
 		printgrid[index] = malloc(width * sizeof(int));
 		if (printgrid == NULL)
 		{
-			for (index--; index >= 0;index--)
+			for (index--; index >= 0; index--)
 				free(printgrid[index]);
 			free(printgrid);
 			return (NULL);
