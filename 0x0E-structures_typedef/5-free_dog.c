@@ -5,7 +5,7 @@
  * free_dog - method to free memory allocated to dog struct
  * @d: pointer to the dog struct
  */
-void free_memory(dog_t *d)
+void free_dog(dog_t *d)
 {
 	if (d)
 	{
